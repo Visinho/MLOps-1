@@ -9,3 +9,4 @@ def train_pipeline(data_path: str):
     df = ingest_df(data_path)
     clean_df(df)
     evaluate_model(df)
+    train_model(df)

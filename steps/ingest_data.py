@@ -5,9 +5,9 @@ from zenml import step
 
 class IngestData:
     #Ingesting data from data path
-    def __init__(self):
+    def __init__(self, data_path: str): 
         # data_path: path to the data
-        self.data_path = self.data_path
+        self.data_path = data_path
 
     def get_data(self):
         # Ingesting data from the data_path
